@@ -18,7 +18,7 @@ Clone the repo and install the dependencies.
 - Clone the repository:
 
 ```bash
-git clone https://github.com/QureshiYousuf/Habit-Tracker.git
+git clone --branch main https://github.com/QureshiYousuf/Habit-Tracker.git
 ```
 
 ```bash
