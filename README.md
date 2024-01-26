@@ -1,12 +1,42 @@
-# Getting Started with Create React App
+# Getting Started with Create React Habit-Tracker App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Habit-Tracker
+
+ <h1 align="center"> React - Habit-Tracker 📝</h1> 
+<p align="center">
+ 🖊️ Habit Tracker using ReactJS<br>
+</p>
+
 ## Available Scripts
 
-In the project directory, you can run:
+## Setup
 
-### `npm start`
+Clone the repo and install the dependencies.
+
+- Clone the repository:
+
+```bash
+git clone https://github.com/QureshiYousuf/Habit-Tracker.git
+```
+
+```bash
+cd Habit-Tracker
+```
+
+- Install the dependencies:
+- In the project directory, you can run:
+
+```bash
+npm install
+```
+
+## To start the express server, run the following:
+
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
