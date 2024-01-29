@@ -10,7 +10,7 @@ const Habit = ({habit}) => {
   //loop for getting habit done count
   for (let i = 0; i < habit.weekLog.length; i++) {
     if(habit.weekLog[i].isDone===true){
-      countDone++;
+      ++countDone;
     }
   }
   
