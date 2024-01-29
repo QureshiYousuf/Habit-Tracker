@@ -10,7 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 </p>
 
 <p align="center">
+
 Hosted Link - [Habit-Tracker](https://habit-tracker-yq.netlify.app)<br>
+
 </p>
 
 ## Available Scripts
