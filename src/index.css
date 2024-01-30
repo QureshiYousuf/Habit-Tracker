@@ -100,9 +100,9 @@ body {
   border-radius: 30px;
 }
 .habit:hover{
-  /* background-color: #b6e3b5c8; */
-background-color: #fff;
+  background-color: #fff;
 }
+
 .habit-left{
   display: flex;
   align-items: center;
