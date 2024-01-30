@@ -24,8 +24,9 @@ const WeekView = () => {
         {habit.weekLog.map((day,index)=><DayView day={day} key={index}/>)}
       </div>
       <div className="d-grid gap-2 col-6 mx-auto mt-5">
-        <button className="btn btn-primary" type="button">
-          <Link to="/">Back to Detail View</Link>
+        <button className="back-btn" type="button">
+          <p><Link to="/">Back to Detail View</Link> <i className="fa fa-chevron-right"/>
+          </p>
         </button>
       </div>
     </>

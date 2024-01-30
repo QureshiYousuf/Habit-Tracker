@@ -27,6 +27,7 @@ const Navbar = ({ name }) => {
       <div className="navbar">
         <h3>
           {/* acording to time its shows morning,afternoon,evening and night */}
+          <i className="fa fa-magic"></i> 
           {hour <= 12
             ? "Good Morning"
             : hour <= 17
@@ -42,7 +43,7 @@ const Navbar = ({ name }) => {
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >
-            <i className="fa-solid fa-plus"></i> Add Habits
+            <i className="fa fa-puzzle-piece"></i> Add Habits
           </button>
         </div>
       </div>
@@ -67,7 +68,7 @@ const Navbar = ({ name }) => {
             <div className="modal-body">
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">
-                  NAME
+                  HABIT NAME
                 </label>
                 <input
                   type="text"
@@ -86,7 +87,7 @@ const Navbar = ({ name }) => {
               >
                 Cancel
               </button>
-              <button type="button" className="btn btn-primary" onClick={handleSave}>
+              <button type="button" className="btn btn-success" onClick={handleSave}>
                 Save
               </button>
             </div>

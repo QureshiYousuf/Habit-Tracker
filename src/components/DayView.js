@@ -52,8 +52,9 @@ const DayView = ({day}) => {
     <div className="day-container">
       <h5 className="text-center">{day.day}</h5>
       <p className="text-center">{date.getDate()}/{date.getMonth()+1}/{date.getFullYear()}</p>
-      <i className={day.isDone===true?"fa-solid fa-circle-check circle-icon active":"fa-solid fa-circle-check circle-icon"} onClick={markToDone}></i>
-      <i className={day.isDone===false?"fa-solid fa-circle-xmark circle-icon active":"fa-solid fa-circle-xmark circle-icon"} onClick={markToUnDone}></i>
+      {/* <i className={day.isDone===true?"fa-solid fa-circle-check circle-icon active":"fa-solid fa-circle-check circle-icon"} onClick={markToDone}></i> */}
+      <i className={day.isDone===true?"fa fa-calendar-check-o active":"fa fa-calendar-check-o "} aria-hidden="true" onClick={markToDone}></i> 
+      <i className={day.isDone===false?"fa fa-calendar-times-o  active":"fa fa-calendar-times-o "} onClick={markToUnDone}></i>
       <i className={day.isDone===""?"fa-solid fa-circle-minus circle-icon active":"fa-solid fa-circle-minus circle-icon"} onClick={markToNone}></i>
     </div>
   );

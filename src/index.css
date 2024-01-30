@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #ecd3d3;
+  background-color: rgba(220, 236, 211, 0.22);
   color: #000;
 }
 
@@ -36,23 +36,40 @@ body {
   height: 100px;
   padding: 0px 20px;
   justify-content: space-around;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
+
+.navbar h3 {
+  font-size: 1.5rem;
+}
+
+.navbar h3 i{
+  font-size: 17px;
+  /* background-color: #ecd3d3; */
+  color: #000;
+}
+
 .right-nav{
   display: flex;
   align-items: center;
 }
 .right-nav h5{
-  color: #DDDDDD;
-  margin-right: 10px;
+  color: rgba(8, 15, 7, 0.61);
+  margin: 2px 10px 0 0;
+  font-size: 1.2rem;
 }
 .addhabit-btn{
   cursor: pointer;
-  color: white;
-  background-color: #3662CC;
+  color: #2c9013;
+  background-color: #f0f9ed;
   padding: 8px 20px;
   border-radius: 7px;
 }
+
+.addhabit-btn i{
+  font-size: 15px;
+}
+
 /* modal */
 .modal-content{
   background-color: #fff;
@@ -75,7 +92,7 @@ body {
   width: 100%;
   height: 100px;
   margin: 4px 0px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +100,7 @@ body {
   border-radius: 30px;
 }
 .habit:hover{
-  background-color: #fff;
+  background-color: #b6e3b5c8;
 }
 .habit-left{
   display: flex;
@@ -91,13 +108,14 @@ body {
 }
 .habit-left i{
   /* color: #2AA8D0; */
-  color: #fff;
+  color: #000;
   padding: 10px;
   border-radius: 50%;
-  /* background-color: #304950; */
-  background-color: #3662CC; 
+  background-color: rgba(220, 236, 211, 0.22); 
   margin-right: 10px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  font-weight: 100;
+
 }
 .day-complete{
   color: #767475;
@@ -110,7 +128,7 @@ body {
 .log-btn{
   text-decoration: none;
   cursor: pointer;
-  background-color: #424242;
+  background-color: #2c9013;
   padding: 10px;
   border-radius: 7px;
   margin-right: 10px;
@@ -118,7 +136,9 @@ body {
   border: none;
 }
 .log-btn:hover{
-  background-color: #3662CC;
+  background-color: #e6f7e6;
+  color: #2c9013;
+  border: 1px solid #2c9013;
 }
 .log-btn i{
   margin-right: 5px;
@@ -147,20 +167,43 @@ body {
 .day-container{
   height: 100px;
   width: 150px;
-  background-color: #fff;
+  background-color: #f0f9ed;
   border-radius: 20px;
   padding: 5px;
+  border: 1px solid #000;
 }
+
+.day-container i{
+  font-size: 24px;
+  margin: 5px 11px;
+  cursor: pointer;
+}
+
+.back-btn{
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  background-color: #d7110b;
+  border: none;
+  border-radius: 10px 40px 40px 10px;
+  padding: 10px 20px;
+}
+
+.back-btn i{
+  margin-left: 1px;
+  font-size: 12px;
+}
+
+/* .back-btn:hover{
+  background-color: #fff;
+  color: #0B5ED7;
+} */
+
 p{
   margin: 0%;
 }
-.circle-icon{
-  font-size: 24px;
-  margin: 5px 11px;
-  /* color: #0B5ED7; */
-  cursor: pointer;
-}
+
 .active{
-  color: #0B5ED7 ;
+  color: #2c9013 ;
 }
 /* ------------------------------------------------------*/
